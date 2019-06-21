@@ -1,12 +1,12 @@
-Script para una distribución Ubuntu (en mi caso Ubuntu 18.04)
+Script para una distribución Debian 9 64 bits
 
 Abrir un terminal
 
-cd /home/ubuntu
+cd /root
 
-git clone https://github.com/ea3eiz/Lanzadores_HBlink
+git clone https://github.com/ea3eiz/Lanzadores_HBlink_Debian_64
 
-cd /home/ubuntu/Lanzadores_HBlink
+cd /root/Lanzadores_HBlink_Debian_64
 
 chmod +x script_crea_lanzadores_hblink.sh
 
