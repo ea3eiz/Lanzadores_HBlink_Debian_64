@@ -1,20 +1,20 @@
 #!/bin/bash
 
 #dar permisos a los ficheros siguientes
-cd /home/ubuntu/HBlink
+cd /root/HBlink
 chmod +x hb_confbridge.py
 chmod +x hb_parrot.py
 chmod +x loro.cfg
 chmod +x hblink.cfg
 
-cd /home/ubuntu/HBmonitor
+cd /root/HBmonitor
 chmod +x web_tables.py
 chmod +x config.py
 
 #creamos el lanzador HBmonitor:./web_tables.py
-cd /home/ubuntu/
+cd /root/
 
-cd Lanzadores_HBlink
+cd Lanzadores_HBlink_Debian_64
 
 cp hbmonitor.local /etc
 
